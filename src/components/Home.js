@@ -24,7 +24,8 @@ export default function Home() {
 
   return (
     <Fragment>
-      <div style={{ margin: "10rem" }}>
+      <div style={{ margin: "10rem", background: "white", borderRadius: 8 }}>
+        <h1>C-R-U-D</h1>
         <Table striped bordered hover size="sm">
           <thead>
             <tr>
